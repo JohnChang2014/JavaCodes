@@ -1,0 +1,4 @@
+checked total 0
+checked drwxr-xr-x  3 eagle  staff  102 Sep  4 16:59 .
+checked drwxr-xr-x  8 eagle  staff  272 Sep  4 16:59 ..
+checked -rw-r--r--  1 eagle  staff    0 Sep  4 16:59 list.txt
