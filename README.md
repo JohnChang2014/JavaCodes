@@ -16,6 +16,19 @@ StringProcessor implements several methods to deal with problems of string proce
 * `isRotation` – check if an input string is a rotation of another.
   * ex: string inputs `erbottlewat` and `waterbottle` will output `true`. Otherwise, `false`.
 
+### Class SentenceProcessor
+
+### Class ArrayProcessor
+
+### Class LinkedList
+
+### Class Queue
+
+### Class MultiplicationTable
+
+
+
+
 
 
 
