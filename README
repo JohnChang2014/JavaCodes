@@ -1,31 +1,5 @@
 # Java sample codes
 
-## Installation
 
-## How to use
-
-In your controller actions, you could return a QR code that links to the current page like this:
-```ruby
-bg_image = Rails.root.join("app").to_s + ActionController::Base.helpers.asset_path("images/bg_image.png")
-respond_to do |format|
-  format.html
-  format.svg  { render :qrcode => request.url, :level => :l, :unit => 10 }
-  format.png  { render :qrcode => request.url, :bg => bg_image, :bsize => "200x100", :gravity => "center", :geometry => "+00+20" }
-  format.gif  { render :qrcode => request.url }
-  format.jpeg { render :qrcode => request.url }
-end
-
-```
-
-In your controller actions, you could generate multiple QR codes on the background
-```ruby
-
-
-```
-  
-#### Options:
-
-
-## About
 
 
